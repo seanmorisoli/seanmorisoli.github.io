@@ -297,7 +297,7 @@ section {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 1rem;
     flex: 1;
     background: #444444;
     border-radius: 2rem;
@@ -336,6 +336,8 @@ section {
 }
 
 .experience-details-container {
+    padding-top: 1.5rem;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
