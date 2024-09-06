@@ -167,6 +167,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin-bottom: 2rem;
 }
 
 .section__pic-container {
@@ -268,6 +269,7 @@ section {
 
 #about {
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .about-containers {
@@ -346,8 +348,9 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    align-items: center;
+    gap: 1 rem;
+    justify-content: center;
 }
 
 .article-container h3 {
