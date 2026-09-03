@@ -165,7 +165,6 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
   height: 80vh;
 }
 
@@ -312,8 +311,8 @@ section {
 }
 
 .section-container {
-    gap: 4rem;
     height: 80%;
+    justify-content: center;
 }
 
 .section__pic-container {
