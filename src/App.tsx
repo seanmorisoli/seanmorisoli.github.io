@@ -11,7 +11,7 @@ import resume from '../assets/morisoli-resume.pdf'
 type Project = { name: string; year: string; description: string; technologies: string[]; image: string; links?: { label: string; href: string }[] }
 
 const projects: Project[] = [
-  { name: 'InvestNest', year: '2025', description: 'A full-stack personal finance application built by a six-person team. I developed the Node.js and Express backend supporting a React and TypeScript frontend with PostgreSQL.', technologies: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'], image: investNestLogo },
+  { name: 'InvestNest', year: '2026', description: 'A full-stack personal finance application built by a six-person team. I developed the Node.js and Express backend supporting a React and TypeScript frontend with PostgreSQL.', technologies: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'], image: investNestLogo },
   { name: 'Paceify', year: '2025', description: "A 24-hour Pitt SteelHacks XII project that generates running playlists by matching a user's pace and cadence to song BPM, with Spotify OAuth 2.0 and Web API integration.", technologies: ['React', 'Node.js', 'Spotify Web API'], image: paceifyLogo },
   { name: 'Unreal Engine FPS', year: '2024', description: 'A first-person shooter where players locate and destroy targets within a time limit. Gameplay mechanics, UI, and asset integration were built with Unreal Engine Blueprint.', technologies: ['Unreal Engine 5', 'Blueprint'], image: unrealGameImage, links: [{ label: 'Download', href: 'https://drive.google.com/file/d/1gOoIOaqV30_wDXjOftadYH0hWQy_C9AC/view?usp=sharing' }, { label: 'Demo', href: 'https://youtu.be/V_ag0Uyeo6c?feature=shared' }] },
 ]
